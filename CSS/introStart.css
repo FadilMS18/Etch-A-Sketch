@@ -1,0 +1,60 @@
+/* Color In This Project
+    1. #E3FDFD
+    2. #CBF1F5
+    3. #A6E3E9
+    4. #71C9CE
+
+*/
+
+
+
+
+body{
+    background-color:bisque;
+    font-family:Rubik;
+    height: 1000vh;
+    background-color: #E3FDFD;
+    /* overflow: hidden; */
+    padding:0;
+    margin: 0;
+
+}
+
+#title-circle {  /* Title and Circle on Top atau Heading */
+    position: fixed;
+    left:-0;
+    right:0;
+    top:0;
+    margin-top:-935px;
+    
+    height:1000px;
+    /* width:100%px; */
+    
+    display:flex;
+    justify-content: center;
+    align-items: end;
+    color:#E3FDFD;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+
+    border:none;
+    border-radius:50%;
+    background-color: #71C9CE;
+}
+
+
+#footer{
+    background-color: #71C9CE;
+    height:25px;
+
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:0px 50px;
+
+    display:flex;
+    color:#E3FDFD;
+    font-weight:bold;
+    font-size:20px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}

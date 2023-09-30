@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Etch-A-Sketch</title>
+        <meta name="description" content="This is Etch-A-Sketch">
+        <meta name="author" content="Fadil, kentbrand2418@gmail.com">
+        <link rel="stylesheet" href="./CSS/introStart.css" />
+        <link rel="stylesheet" href="./CSS/leftRightContainer.css">
+        <link rel="stylesheet" href="./CSS/game.css" />
+        <link rel="icon" href="./Assets/Korone..ico" size="32x32" type="image/x-ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Rubik&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Membuat sketch a ketch Day 1 Start -->
+        
+        <!-- Heading Start -->
+        <div>
+            <div id="title-circle">
+                <h1>Etch-A-Sketch</h1>
+            </div>
+        </div>
+        <!-- Heading End -->
+
+        <!-- All Image in Web Start -->
+        <div class="image-container">
+            <img class="images" id="korone" src="./Assets/Korone.png" alt="This supposed to be an image" />
+            <img class="images" id="suisei" src="./Assets/Suisei.png" alt="This supposed to be an image" />
+            <img class="images" id="miko" src="./Assets/miko .png" alt="This supposed to be an image" />
+            <img class="images" id="miko2" src="./Assets/miko .png" alt="This supposed to be an image" />
+        </div>
+        <!-- All Image in Web End -->
+
+        <!-- Game Container Start -->
+        <div id="game-big-container">
+
+            <!-- Left Container Start -->
+            <div id="color-container" class="left-right-container">
+                <button class="color-button" id="black-color">Black Color</button>
+                <button class="color-button" id="rainbow-color">Random Color</button>
+                <button class="color-button" id="eraser">Eraser</button>
+            </div>
+            <!-- Left Container End -->
+
+            <!-- Game Start -->
+            <div id="box-container"> </div>
+            <!-- Game End -->
+
+            <!-- Right Container Start -->
+            <div id="right-container" class="left-right-container">
+                <select class="color-button" id="select-button">
+                    <option value="1">1 x 1</option>
+                    <option value="2">2 x 2</option>
+                    <option value="4">4 x 4</option>
+                    <option value="8">8 x 8</option>
+                    <option value="16">16 x 16</option>
+                    <option value="32">32 x 32</option>
+                    <option value="64">64 x 64</option>
+                </select>
+                <button class="color-button" id="start-button">Start Button</button>
+                <button class="color-button" id="reset-button">Reset Button</button>
+            </div>
+            <!-- Right Container End -->
+
+        </div>
+        <!-- Game Container End -->
+        
+
+        
+        
+        <footer id="footer"><strong>&#169</strong> Build by Fadil Malik, kentbrand2418@gmail.com</footer>
+        <!-- Membuat sketch a ketch Day 1 End -->
+        <script src="./JS/gameStart.js"></script>
+    </body>
+</html>
